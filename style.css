@@ -9,7 +9,6 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    
 }
 
 /* Hero Section */
@@ -693,7 +692,7 @@
 .contact_container .contact_form .contact_btn:hover{
     background: #F69F3C;
     border: none;
-    transform: scale(1.2);
+    transform: scale(0.9);
 }
 
 .contact_container .contact_form .contact_btn input{
@@ -709,7 +708,7 @@
     color: #272727;
 }
 
- 
+/* footer section */
 footer{
     /* border: 1px solid black; */
     width: 100%;
@@ -753,5 +752,4 @@ footer .privacy{
     line-height: 20px;
     text-decoration-line: underline;
     color: #000000;
-
 }
