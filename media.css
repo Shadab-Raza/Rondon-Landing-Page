@@ -231,7 +231,7 @@
 }
 
 
-@media (max-height: 667px){
+@media (max-height: 674px){
     .hero_container{
         /* border: 5px solid black; */
         height: 100vh;
@@ -320,7 +320,7 @@
 }
 
 
-@media (max-height: 667px){
+@media (max-height: 674px){
     .card_container{
         /* border: 1px solid black; */
         height: 90vh;
@@ -547,7 +547,7 @@
 }
 
 
-@media (max-height: 667px){
+@media (max-height: 674px){
     .service_container{
         /* border: 1px solid black; */
         height: 195vh;
@@ -665,7 +665,7 @@
 }
 
 
-@media (max-height: 667px){
+@media (max-height: 674px){
     .highlighted_container{
         /* border: 1px solid black; */
         height: 160vh;
@@ -760,7 +760,7 @@
 }
 
 
-@media (max-height: 667px){
+@media (max-height: 674px){
     .aboutUs_container{
         /* border: 1px solid black; */
         height: 90vh;
@@ -919,7 +919,7 @@
 }
 
 
-@media (max-height: 667px){
+@media (max-height: 674px){
     .contact_container{
         /* border: 3px solid black; */
         height: 185vh;
@@ -989,7 +989,7 @@
 }
 
 
-@media (max-height: 667px){
+@media (max-height: 674px){
     footer{
         /* border: 1px solid black; */
         height: 35vh;
