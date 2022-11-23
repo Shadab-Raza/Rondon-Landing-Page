@@ -254,7 +254,7 @@
     .card_container .card_wrapper{
         /* border: 1px solid black;   */
         width: 85%;
-        height: 240.32px;
+        height: 280.32px;
         margin-top: 50px;
         gap: 30px;
     }
@@ -307,7 +307,7 @@
     
     .card_container .card_wrapper{
         /* border: 1px solid black; */
-        height: 290.32px;
+        height: 240.32px;
     }
 }
 
@@ -315,7 +315,13 @@
 @media (max-height: 745px){
     .card_container{
         /* border: 1px solid black; */
-        height: 140vh;
+        height: 70vh;
+        transform: translateY(-80px);
+    }
+
+    .card_container .card_wrapper{
+        /* border: 1px solid black; */
+        height: 240.32px;
     }
 }
 
@@ -324,6 +330,15 @@
     .card_container{
         /* border: 1px solid black; */
         height: 90vh;
+        transform: translateY(-130px);
+    }
+}
+
+
+@media (max-height: 668px){
+    .card_container{
+        /* border: 1px solid black;  */
+        height: 70vh;
         transform: translateY(-130px);
     }
 }
@@ -528,8 +543,9 @@
 
 @media (max-height: 745px){
     .service_container{
-        /* border: 1px solid black; */
+        /* border: 1px solid black;  */
         height: 180vh;
+        transform: translateY(150px);
     }
 
     .service_container .content_wrapper .heading{
@@ -654,6 +670,7 @@
     .highlighted_container{
         /* border: 1px solid black; */
         height: 160vh;
+        transform: translateY(150px);
     }
 
     .highlighted_container .highlighted_wrapper .highlighted_article h3{
@@ -756,6 +773,15 @@
         /* border: 1px solid black; */
         height: 90vh;
         transform: translateY(-150px);
+    }
+}
+
+
+@media (max-height: 745px){
+    .aboutUs_container{
+        /* border: 1px solid black; */
+        height: 80vh;
+        transform: translateY(150px);
     }
 }
 
@@ -904,6 +930,7 @@
     .contact_container{
         /* border: 3px solid black;  */
         height: 160vh;
+        transform: translateY(150px);
     }
 
     .contact_container .contact_form{
@@ -985,6 +1012,7 @@
     footer{
         /* border: 1px solid black; */
         height: 35vh;
+        transform: translateY(150px);
     }
 }
 
