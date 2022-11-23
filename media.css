@@ -231,6 +231,14 @@
 }
 
 
+@media (max-height: 667px){
+    .hero_container{
+        /* border: 5px solid black; */
+        height: 100vh;
+    }
+}
+
+
 
 /* card section */
 @media (max-width: 480px){
@@ -315,7 +323,8 @@
 @media (max-height: 667px){
     .card_container{
         /* border: 1px solid black; */
-        height: 165vh;
+        height: 90vh;
+        transform: translateY(-130px);
     }
 }
 
@@ -541,7 +550,8 @@
 @media (max-height: 667px){
     .service_container{
         /* border: 1px solid black; */
-        height: 215vh;
+        height: 195vh;
+        transform: translateY(150px);
     }
 }
 
@@ -658,7 +668,8 @@
 @media (max-height: 667px){
     .highlighted_container{
         /* border: 1px solid black; */
-        height: 170vh;
+        height: 160vh;
+        transform: translateY(150px);
     }
 }
 
@@ -751,9 +762,9 @@
 
 @media (max-height: 667px){
     .aboutUs_container{
-        border: 1px solid black;
-        height: 100vh;
-        
+        /* border: 1px solid black; */
+        height: 90vh;
+        transform: translateY(150px);
     }
 
     .aboutUs_container .aboutUS_wrapper .about_heading{
@@ -791,7 +802,7 @@
     }
     
     .contact_container .contact_article{
-        border: 1px solid black;
+        /* border: 1px solid black; */
         width: 100%;
         height: 50vh;
     }
@@ -910,8 +921,10 @@
 
 @media (max-height: 667px){
     .contact_container{
-        /* border: 3px solid black;  */
+        /* border: 3px solid black; */
         height: 185vh;
+        transform: translateY(150px);
+        gap: 10px;
     }
 }
 
@@ -979,6 +992,7 @@
 @media (max-height: 667px){
     footer{
         /* border: 1px solid black; */
-        height: 40vh;
+        height: 35vh;
+        transform: translateY(150px);
     }
 }
