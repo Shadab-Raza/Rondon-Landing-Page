@@ -55,7 +55,70 @@
     }
 }
 
-@media (max-width: 390px){
+@media (max-width: 400px){
+    .hero_container .nav_header{
+        /* border: 1px solid black;  */
+        width: 100%;
+        padding: 10px 60px 0px 15px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .hero_container .nav_header .toggle-button{
+        display: flex;
+    }
+
+    .hero_container .nav_header .navbar{
+        /* border: 1px solid black; */
+        display: none;
+        align-items: flex-end;
+        width: 100%;
+        transform: translateY(80px);
+    }
+
+    .hero_container .nav_header .navLogo{
+        /* border: 1px solid black;  */
+        width: 55%;
+        height: 90%;
+    }
+
+    .hero_container .nav_header .navbar .navbar_links ul{
+        /* border: 1px solid black; */
+        width: 80%;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 7px;
+    }
+
+    .hero_container .nav_header .navbar .navbar_links ul li a{
+        font-size: 12px;
+    }
+
+    .hero_container .nav_header .navbar .numBtn_wrapper{
+        /* border: 1px solid black;  */
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        gap: 15px;
+    }
+
+    .hero_container .nav_header .navbar .numBtn_wrapper a{
+        font-size: 12px;
+        width: 82%;
+    }
+
+    .hero_container .nav_header .navbar .numBtn_wrapper p{
+        font-size: 12px;
+    }
+
+    .hero_container .nav_header .navbar.active{
+        display: flex;
+    }
+}
+
+@media (max-width: 380px){
     .hero_container .nav_header{
         /* border: 1px solid black;  */
         width: 100%;
@@ -392,10 +455,6 @@
         margin-top: 30px;
         transform: translateX(-50px);
     }
-
-    .service_container .image_wrapper .images .SerImg{
-        display: none;
-    }
     
     .service_container .image_wrapper .images img{
         width: 48%;
@@ -484,11 +543,22 @@
     }
 }
 
+@media (max-width: 380px){
+    .service_container{
+        /* border: 1px solid black; */
+        height: 130vh;
+    }
+    
+    .service_container .image_wrapper .images .SerImg{
+        display: none;
+    } 
+}
+
 @media (max-height: 580px){
     .service_container{
         /* border: 1px solid black; */
-        height: 170vh;
-        gap: 20px;
+        height: 180vh;
+        gap: 10px;
         margin-top: 20px;
     }
 
@@ -588,7 +658,7 @@
 @media (max-height: 580px){
     .highlighted_container{
         /* border: 1px solid black; */
-        height: 170vh;
+        height: 180vh;
     }
 
     .highlighted_container .highlighted_wrapper .highlighted_article h3{
